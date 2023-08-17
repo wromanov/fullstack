@@ -2,6 +2,6 @@
 
 Aqui neste arquivo README teremos as informações relativas ao projeto.
 
-##Subtítulo doe README
+## Subtítulo doe README
 
 - Tópico: Bla bla bla
