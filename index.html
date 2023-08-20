@@ -1,59 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <!--Dentro da Tag "Head" ficam as configurações da página.-->
   <head>
     <!--Tag "Meta" define o estilo de condificação da página-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!--Define o nome do título da página-->
     <title>Document</title>
-
   </head>
 
   <!--Tag "body" contém todo conteúdo que será exibido na página.-->
   <body>
     <!-- H1 = Título Principal-->
-    <h1>Tag de Título Principal</h1> 
+    <h1>Tag de Título Principal</h1>
     <h2>Tag de Subtítulo</h2>
 
     <!--Tag de Parágrafo, pula linha automaticamente-->
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, 
-      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-      sheets containing Lorem Ipsum passages, and more recently with desktop 
-      publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </p>
 
-    <h3>Tags de formatação: É indicado dar preferência para as tags semânticas, que tem significado pelos motores de busca.</h3>
+    <h3>
+      Tags de formatação: É indicado dar preferência para as tags semânticas,
+      que tem significado pelos motores de busca.
+    </h3>
 
-    <p>Esse é um texto <strong>em negrito (tag não semântica).</strong></p> 
+    <p>Esse é um texto <strong>em negrito (tag não semântica).</strong></p>
 
-    <p>Esse é um texto <strong>em negrito (tag semântica).</strong></p>  
+    <p>Esse é um texto <strong>em negrito (tag semântica).</strong></p>
 
     <p>Esse é um texto <i>em itálico (tag não semântica)</i>.</p>
 
     <p>Esse é um texto <em>em itálico (tag semântica)</em>.</p>
-    
+
     <p>Esse é um texto <mark>com marcação.</mark></p>
 
     <p>Esse é um texto <small>com a tag small.</small></p>
 
-    <p>Esse é um texto <del>que foi removido.</del> </p>
+    <p>Esse é um texto <del>que foi removido.</del></p>
 
     <p>Esse é um texto <ins>que foi inserido.</ins></p>
 
     <p>Esse é um texto <sub>subscrito.</sub></p>
-    
+
     <p>Esse é um texto <sup>supscrito.</sup></p>
-    
+
     <!--Criando um hiperlink para outra página-->
     <a href="sobre.html">sobre</a>
+    <br />
+    <br />
+
+    <!--Inserindo imagem no HTML através de link-->
+    <img
+      src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/211749818/original/74f16cec9938fa8c0e0f14ebb476be2d0b579e7f/do-a-great-job-on-back-end-side.jpg"
+      alt="Java"
+      height="300"
+    />
+    <br />
+
+    <!--Iserindo imagem no HTML através de arquivo, e atribuindo um link-->
+    <a href="https://en.wikipedia.org/wiki/Frontend_and_backend">
+      <img src="./img/java.png" alt="java-backend" height="300" />
+    </a>
+
+    <!--Listas Não Ordenadas-->
+
+    <h2>Lista de Compras</h2>
+
+    <!--Unord List-->
+    <ul>
+      <!--List Item-->
+      <li>Arroz</li>
+      <li>Feijao</li>
+      <li>Refrigerante</li>
+    </ul>
+
+    <h2>Ranking dos melhores vendedores</h2>
+
+    <!--Orded List-->
+    <ol>
+      <li>Marcela</li>
+      <li>João</li>
+      <li>Marcos</li>
+    </ol>
+
+    <!--Criando Tabelas-->
+    <table>
+      <tr> <!--Table Roll = Linha da Tabela-->
+        <th>Nome</th> <!--Table Head = Cabeçalho da Tabela-->
+        <th>Telefone</th>
+        <th>Email</th>
+      </tr>
+    
+    <tr>
+      <td>Walace</td> <!--Table Data = Inserir os dados-->
+      <td>21996932687</td>
+      <td>walacecastro@live.com</td>
+    </tr>
+
+    <tr>
+      <td>Elaine</td> <!--Table Data = Inserir os dados-->
+      <td>21995599556</td>
+      <td>elianeromanov@live.com</td>
+    </tr>
+
+
+
+    </table>
+
 
   </body>
-
-
-
-  </html>
+</html>
