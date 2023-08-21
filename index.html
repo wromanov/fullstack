@@ -6,6 +6,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--CSS Interno, usa a tag style e um seletor de tag o qual será usado no texto-->
+    <style>
+      h2{color: blue;}
+    </style>
+
+    <!--CSS Externo, utiliza um arquivo externo para definições do CSS da página-->
+    <link href="./CSS/style.css" rel="stylesheet">
+
     <!--Define o nome do título da página-->
     <title>Document</title>
   </head>
@@ -18,6 +26,34 @@
 
     <!--Tag de Parágrafo, pula linha automaticamente-->
     <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </p>
+
+    <!--CSS Inline é forma de alterarmos a aparencia de algum conteudo que está dentro de uma tag.-->
+    
+      <h2>Exemplo CSS Inline</h2>
+      <p style="color: red;">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </p>
+
+    <p>
+      <h2>Exemplo CSS Interno</h2>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
@@ -61,7 +97,7 @@
 
     <!--Inserindo imagem no HTML através de link-->
     <img
-      src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/211749818/original/74f16cec9938fa8c0e0f14ebb476be2d0b579e7f/do-a-great-job-on-back-end-side.jpg"
+      src="https://s2-techtudo.glbimg.com/89WluPJgFV1lLimz5kV_w0Ic5mM=/0x0:695x393/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/P/f/y52r4ySZWLkJjEhKLhgw/2014-11-14-java-logo.jpg"
       alt="Java"
       height="300"
     />
@@ -95,28 +131,27 @@
 
     <!--Criando Tabelas-->
     <table>
-      <tr> <!--Table Roll = Linha da Tabela-->
-        <th>Nome</th> <!--Table Head = Cabeçalho da Tabela-->
+      <tr>
+        <!--Table Roll = Linha da Tabela-->
+        <th>Nome</th>
+        <!--Table Head = Cabeçalho da Tabela-->
         <th>Telefone</th>
         <th>Email</th>
       </tr>
-    
-    <tr>
-      <td>Walace</td> <!--Table Data = Inserir os dados-->
-      <td>21996932687</td>
-      <td>walacecastro@live.com</td>
-    </tr>
 
-    <tr>
-      <td>Elaine</td> <!--Table Data = Inserir os dados-->
-      <td>21995599556</td>
-      <td>elianeromanov@live.com</td>
-    </tr>
+      <tr>
+        <td>Walace</td>
+        <!--Table Data = Inserir os dados-->
+        <td>21996932687</td>
+        <td>walacecastro@live.com</td>
+      </tr>
 
-
-
+      <tr>
+        <td>Elaine</td>
+        <!--Table Data = Inserir os dados-->
+        <td>21995599556</td>
+        <td>elianeromanov@live.com</td>
+      </tr>
     </table>
-
-
   </body>
 </html>
