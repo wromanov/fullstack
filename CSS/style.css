@@ -1,3 +1,13 @@
 h1{
   color: brown;
 }
+
+/* Usando ID na tag para modificar a cor do texto, pode identificar apenas uma tag com um determinado ID*/
+#principal{
+  color: rgb(82, 114, 201);
+}
+
+/* Usando Class na tag para modificar a cor do texto, a diferença do ID, é que a classe podemos identificar mais de uma tag ou elemento. */
+.texto_verde{
+  color: green;
+}

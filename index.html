@@ -18,6 +18,8 @@
     <title>Document</title>
   </head>
 
+  <!--Criando Link a partir de um ID de TAG, para Correr até um local exato na página.-->
+  <a href="#curso_java">Curso de Java</a>
   <!--Tag "body" contém todo conteúdo que será exibido na página.-->
   <body>
     <!-- H1 = Título Principal-->
@@ -25,7 +27,7 @@
     <h2>Tag de Subtítulo</h2>
 
     <!--Tag de Parágrafo, pula linha automaticamente-->
-    <p>
+    <p id="principal"> <!--ID identifica a tag dentro do arquivo style.css-->
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard, dummy text ever since the
       1500s, when an unknown printer took a galley of type and scrambled it to
@@ -70,9 +72,9 @@
       que tem significado pelos motores de busca.
     </h3>
 
-    <p>Esse é um texto <strong>em negrito (tag não semântica).</strong></p>
+    <p class="texto_verde">Esse é um texto <strong>em negrito (tag não semântica).</strong></p>
 
-    <p>Esse é um texto <strong>em negrito (tag semântica).</strong></p>
+    <p class="texto_verde">Esse é um texto <strong>em negrito (tag semântica).</strong></p>
 
     <p>Esse é um texto <i>em itálico (tag não semântica)</i>.</p>
 
@@ -96,7 +98,7 @@
     <br />
 
     <!--Inserindo imagem no HTML através de link-->
-    <img
+    <img 
       src="https://s2-techtudo.glbimg.com/89WluPJgFV1lLimz5kV_w0Ic5mM=/0x0:695x393/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/P/f/y52r4ySZWLkJjEhKLhgw/2014-11-14-java-logo.jpg"
       alt="Java"
       height="300"
@@ -104,7 +106,7 @@
     <br />
 
     <!--Iserindo imagem no HTML através de arquivo, e atribuindo um link-->
-    <a href="https://en.wikipedia.org/wiki/Frontend_and_backend">
+    <a id="curso_java" href="https://en.wikipedia.org/wiki/Frontend_and_backend">
       <img src="./img/java.png" alt="java-backend" height="300" />
     </a>
 
