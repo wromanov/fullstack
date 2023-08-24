@@ -30,3 +30,8 @@ h1 {
 .texto_verde {
   color: rgba(44, 117, 44, 0.6);
 }
+
+.fundoTrocado{
+  background-image: url(../imagens/5073414.jpg);
+  background-size: cover;
+}
