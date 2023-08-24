@@ -1,13 +1,32 @@
-h1{
-  color: brown;
+body {
+  background-image: url(../imagens/fundo-azul.png);
+
+  /*Não repetir o fundo */
+  background-repeat: no-repeat;
+
+  /*Cobrir toda a área */
+  background-size: cover;
+
+  /* O background não rola junta com a página */
+  background-attachment: fixed;
+}
+
+h1 {
+  /* Trocando a Cor do texto */
+  color: BlueViolet;
 }
 
 /* Usando ID na tag para modificar a cor do texto, pode identificar apenas uma tag com um determinado ID*/
-#principal{
-  color: rgb(82, 114, 201);
+#principal {
+  color: rgb(113, 101, 180);
+
+  /*Trocando a cor de fundo "Background"*/
+  background-color: black;
 }
 
 /* Usando Class na tag para modificar a cor do texto, a diferença do ID, é que a classe podemos identificar mais de uma tag ou elemento. */
-.texto_verde{
-  color: green;
+/* No RGBA a ultima casa modifica a opacidade "0.6" */
+
+.texto_verde {
+  color: rgba(44, 117, 44, 0.6);
 }
