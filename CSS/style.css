@@ -31,7 +31,98 @@ h1 {
   color: rgba(44, 117, 44, 0.6);
 }
 
-.fundoTrocado{
+.fundoTrocado {
   background-image: url(../imagens/5073414.jpg);
   background-size: cover;
+}
+
+/* Unidades de Medidas CSS */
+
+#cm {
+  background-color: blue;
+  width: 1cm; /*largura*/
+  height: 1cm; /*altura*/
+}
+
+#cm {
+  background-color: rgb(253, 21, 5);
+  width: 1cm; /*largura*/
+  height: 1cm; /*altura*/
+}
+
+#mm {
+  background-color: blue;
+  width: 1mm; /*largura*/
+  height: 1mm; /*altura*/
+}
+
+#in {
+  background-color: rgb(255, 38, 0);
+  width: 1in; /*largura*/
+  height: 1in; /*altura*/
+}
+
+#px {
+  background-color: blue;
+  width: 1px; /*largura*/
+  height: 1px; /*altura*/
+}
+
+#pt {
+  background-color: rgb(255, 17, 0);
+  width: 1pt; /*largura*/
+  height: 1pt; /*altura*/
+}
+
+#pc {
+  background-color: blue;
+  width: 1pc; /*largura*/
+  height: 1pc; /*altura*/
+}
+
+/* Unidades de medida relativas CSS */
+
+/* Tamanho do texto padrão da fonte é 16px   */
+
+/* Alterando tamanho de todo texto dentro do HTML */
+html {
+  font-size: 16px;
+}
+
+.container {
+  font-size: 16px;
+  width: 200px;
+  background-color: red;
+}
+
+/* Medida relativa que significa 1x o tamanho do texto daquele elemento raiz 1 x 20px = 20px, 
+* no caso como a div insider está dentro da div container que é pai, a div insider herda suas caracteristicas */
+.insider {
+  font-size: 1em;
+  width: 100px;
+  background-color: blue;
+}
+
+#base {
+  height: 10px;
+  background-color: red;
+}
+
+#conteudo {
+  height: 20px;
+  color: white;
+  background-color: blue;
+  margin: 10px; /* Distância da margem para fora */
+  padding: 10px; /* Distância da margem para dentro */
+}
+
+#borda01{
+  border: 5px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 5px;
+}
+
+#borda02 {
+  border: 5px dashed blue ;
 }
