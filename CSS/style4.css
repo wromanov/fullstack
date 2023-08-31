@@ -1,0 +1,42 @@
+.personalizarTexto {
+  color: red;
+  text-align: justify;
+  text-transform: capitalize;
+
+  /* Tamanho da identação do parágrafo */
+  text-indent: 15px;
+
+  /*Decoration CSS  - pode aplicar mais de 1 ao mesmo tempo */
+  text-decoration: underline;
+
+  /*Espaçamento entre as letras*/
+  letter-spacing: 1px;
+
+  /*Definir distância de uma palavra para outra*/
+  word-spacing: 5px;
+
+  /*Altura da Linha*/
+  line-height: 20px;
+
+  /*Criar sombra no texto*/
+  text-shadow: 1px 2px #bbb;
+}
+
+.personalizarFonte {
+  /*Fontes com nomes compostos precisam estar entre aspas, e fontes backups ficam após a virgula*/
+  font-family: minhaFonte, "Comic Sans MS";
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps; /*Põem tudo em maiusculo, porém difere as letras que já estavam em maisuculo*/
+}
+
+/*Inserindo fonte personalizada no projeto*/
+@font-face {
+  font-family: minhaFonte;
+  src: url(./fontes/JetBrainsMono-Regular.ttf);
+}
+
+/*Removmend*/
+.retirarUnderline {
+  text-decoration: none;
+}
